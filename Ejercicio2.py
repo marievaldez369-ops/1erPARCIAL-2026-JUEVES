@@ -1,6 +1,7 @@
 def total_donas(a, b)
 a = donas por personas
-b = cantidad de personastotal = 0
+b = cantidad de personas
+total = 0
 for in range(b):
     total += a
     return total
