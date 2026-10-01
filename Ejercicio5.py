@@ -1,5 +1,5 @@
 from datetime import date
-class ProductoKwike:
+class ProductoKwikE:
     def __init__(self, descripcion, id_producto, fecha_vencimiento, precio, stock):
         self.descripcion = descripcion
         self.id_producto = id_producto
