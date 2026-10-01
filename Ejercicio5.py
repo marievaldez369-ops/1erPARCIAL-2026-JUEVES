@@ -33,4 +33,6 @@ class ProductoKwikE:
             return self.id_producto == other.id_producto and self.descripcion == other.descripcion
         return False
 
+        
+
 
