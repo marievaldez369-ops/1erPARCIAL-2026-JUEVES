@@ -24,4 +24,13 @@ class ProductoKwike:
         return  diferencia
     def marcar_stok_cero(self):
         self.stock = 0
+    
+    def __str__(self):
+        return f"Producto: {self.descripcion}", ID: {self.id_producto}, Precio: ${self.precio:.2f}, Stock:{se.stock}"
+
+    def __eq__(self, other):
+        if isinstance(other, ProductoKwike):
+            return self.id_producto == other.id_producto and self.descripcion == other.descripcion
+        return False
+
 
