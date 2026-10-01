@@ -26,4 +26,4 @@ class ListaEnlazada:
         actual = self.header._nxt
         while actual is not None:
         yield actual = actual._nxt
-        actual = actual._nxt
+        actual = actual._nxt 
